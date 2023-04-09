@@ -1,0 +1,91 @@
+body{
+	background-color: #162831;
+}
+.logo{
+	position: relative;
+	display: inline-block;
+}
+.logo_upper_part{
+	position: absolute;
+	top: 20%;
+	left: 22%;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.burger_menu{
+	display: flex;
+	border-bottom: 2px solid white;
+	padding: 30px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu a{
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	margin: 0 30px 0 0;
+}
+.connect_with_us button{
+	padding: 9px 15px;
+	background-color: #018ABE;
+	border-radius: 3px;
+	color: white;
+	border: none;
+}
+h2{
+	margin: 60px auto 60px auto;
+	width: 500px;
+	display: flex;
+	font-weight: 700;
+	font-size: 42px;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+.grid_news{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.updates{
+	width: 26%;
+	height: 270px;
+	background-image: url(../img/small_grid.svg);
+	background-repeat: no-repeat;
+	margin: 0 12px 24px 0;
+	border-radius: 5px;
+}
+.updates p{
+	margin: 30px 0 0 35px;
+	padding: 4px 8px;
+	background-color: #018ABE;
+	display: inline-block;
+	color: white;
+	border-radius: 5px;
+}
+.updates h4{
+	margin: 135px 0 0 35px;
+	font-weight: 700;
+	font-size: 15px;
+	color: white;
+}
+.updates:nth-child(3), .updates:last-child{
+
+}
+.news{
+	margin: 0 0 45px 0;
+}
+.footer_flex{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+}
+a{
+	text-decoration: none;
+}

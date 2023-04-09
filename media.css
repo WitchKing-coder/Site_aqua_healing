@@ -1,0 +1,29 @@
+@media(max-width: 1215px){
+	.coords{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	}
+	.wide_container{
+	width: 90%;
+	margin: 150px auto 90px auto;
+	position: relative;
+	}
+	.wide_container .map{
+	display: inline-block;
+	margin: 0 38px 0 0;
+	width: 65%;
+	}
+	.prices ul{
+	list-style: none;
+	margin: 15px 100px 0 0;
+	}
+}
+@media(max-width: 1127px){
+	.wide_container .map{
+	display: inline-block;
+	margin: 0 38px 0 0;
+	width: 60%;
+	}
+}

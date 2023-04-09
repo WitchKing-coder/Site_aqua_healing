@@ -1,0 +1,96 @@
+body{
+	background-color: #162831;
+}
+.logo{
+	position: relative;
+	display: inline-block;
+}
+.logo_upper_part{
+	position: absolute;
+	top: 20%;
+	left: 22%;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.burger_menu{
+	display: flex;
+	border-bottom: 2px solid white;
+	padding: 30px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu a{
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	margin: 0 30px 0 0;
+}
+.connect_with_us button{
+	padding: 9px 15px;
+	background-color: #018ABE;
+	border-radius: 3px;
+	color: white;
+	border: none;
+}
+h2{
+	margin: 60px auto 60px auto;
+	width: 30%;
+	display: flex;
+	font-weight: 700;
+	font-size: 42px;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	text-align: center;
+}
+h4{
+	font-weight: 700;
+	font-size: 24px;
+	color: white;
+	margin: 0;
+}
+.footer_flex{
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
+	font-size: 14px;
+	color: white;
+}
+.news_flex{
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #018ABE;
+	padding: 50px 60px;
+	margin: 0 0 100px 0;
+	border-radius: 20px;
+	align-items: center;
+}
+.right{
+	width: 40%;
+}
+.left{
+	width: 52%;
+}
+.left img{
+	width: 100%;
+}
+.right p{
+	display: inline-block;
+	border-radius: 5px;
+	font-weight: 300;
+	font-size: 16px;
+	color: white;
+}
+.right p:first-child{
+	padding: 6px 12px;
+	background-color: #018ABE;
+}
+button{
+	padding: 10px 20px;
+	background: #018ABE;
+	border-radius: 5px;
+	color: white;
+}
